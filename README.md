@@ -8,6 +8,8 @@ As we can seen from tables and figures that Hive has the worst performance in ge
 
 ## Quick Setup
 
+### PreProcessing
+
 1- Generate the LDBC dataset using the LDBC data generator: https://github.com/ldbc/ldbc_snb_datagen 
 - for this we have this generator on seperated machine that doesn't have Hadoop, as it needs Hadoop 2.6.
 we have this on machine 'Centos Machine 4'.
@@ -44,9 +46,6 @@ we have this on machine 'Centos Machine 4'.
 - Using the Person preprocessed file prepared for neo4j import (correcting its header to original, removing the TYPE column) after copying it with converted date from the neo4j preparation.
 
 8-	Used the LDBC hive example of Morpheus to create LDBC graph, and used this to generate the LDBC graph out of it:
-
-
-
 
 
 
