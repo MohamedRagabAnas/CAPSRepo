@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62452691-b50f-4203-8eb9-04238fad17f8" name="Default Changelist" comment="" />
+    <list default="true" id="62452691-b50f-4203-8eb9-04238fad17f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +38,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-650602633">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataFormatConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="619" column="9" selection-start-line="619" selection-start-column="9" selection-end-line="619" selection-end-column="9" />
+            <state relative-caret-position="2361">
+              <caret line="435" column="65" lean-forward="true" selection-start-line="435" selection-start-column="65" selection-end-line="435" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6229#6230#0" expanded="true" />
+                <element signature="e#6267#6268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +84,20 @@
       <find>arg</find>
       <find>main</find>
       <find>comment</find>
+      <find>date</find>
+      <find>SimpleDate</find>
+      <find>format</find>
+      <find>creationdate</find>
+      <find>creationdateDateFormat</find>
+      <find>parse(</find>
+      <find>path</find>
+      <find>Files</find>
+      <find>path = Paths.get(</find>
+      <find>filename</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -89,17 +120,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="952" />
-    <option name="width" value="975" />
-    <option name="height" value="1168" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1167" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,13 +148,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569396091269" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Archive" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573131499850" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -160,7 +192,7 @@
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../../../FunctionalProgramingTrainingScala/example/example" value="PREVIEW" />
+        <entry key="$USER_HOME$/FunctionalProgramingTrainingScala/example/example" value="PREVIEW" />
         <entry key="$USER_HOME$/IdeaProjects/Demo" value="PREVIEW" />
         <entry key="$USER_HOME$/IdeaProjects/GraphXBuildingEggoNetwork" value="PREVIEW" />
         <entry key="$USER_HOME$/IdeaProjects/GraphXPageRank" value="PREVIEW" />
@@ -189,17 +221,18 @@
       <workItem from="1569515316845" duration="1297000" />
       <workItem from="1570122586553" duration="719000" />
       <workItem from="1570311613042" duration="90000" />
+      <workItem from="1573069062256" duration="6753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12482000" />
+    <option name="totallyTimeSpent" value="19235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="780" height="934" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17083333" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1750547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16602688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16602688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,19 +277,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2670">
+          <caret line="420" column="50" selection-start-line="420" selection-start-column="50" selection-end-line="420" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="677" column="16" selection-start-line="677" selection-start-column="16" selection-end-line="677" selection-end-column="16" />
+        <state relative-caret-position="321">
+          <caret line="360" column="22" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFormatConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="619" column="9" selection-start-line="619" selection-start-column="9" selection-end-line="619" selection-end-column="9" />
+        <state relative-caret-position="2361">
+          <caret line="435" column="65" lean-forward="true" selection-start-line="435" selection-start-column="65" selection-end-line="435" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6229#6230#0" expanded="true" />
+            <element signature="e#6267#6268#0" expanded="true" />
           </folding>
         </state>
       </provider>
