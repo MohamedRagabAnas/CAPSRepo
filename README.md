@@ -41,8 +41,8 @@ we have this on machine 'Centos Machine 4'.
 8- Morpheus- LDBC Hive schema (we want to have a schema in hive similar to neo4j and hdfs): 
 
 - Uploading the raw generated LDBC-CSV files with:
-- Converting the DateTime to GMT file format.
-- Using the Person preprocessed file prepared for neo4j import (correcting its header to original, removing the TYPE column).
+- Converting the DateTime to GMT file format (PreProcessing/date_conversion_jar) to be in the same format as neo4j converted dates.
+- Using the Person preprocessed file prepared for neo4j import (correcting its header to original, removing the TYPE column) after copying it with converted date from the neo4j preparation.
 
 9-	Used the LDBC hive example of Morpheus to create LDBC graph, and used this to generate the LDBC graph out of it:
 
