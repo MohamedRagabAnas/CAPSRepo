@@ -19,8 +19,15 @@ we have this on machine 'Centos Machine 4'.
 - Created a jar file that take as input the directory of the LDBC data and generate the new data into the output given directory.
 - This project has generated the data that will create a property graph, it will be unfortunately different from the one that is in Graph DDL.
 
+4- Prepare the import script (neo4j admin import tool) for all nodes and relationships to load them into a neo4j graph DB.
 
-4-	Created python scripts to pre-process (Normalize) the data generated from this project to adhere with the LDBC property graph of Hive:
+5- Load the data to neo4j and check the newly created schema.
+
+6- Solved the issue of Converting the GMT DateTime for Morpheus Cypher into Months and Years. (a lot of queries depend on this conversion).
+
+7- Morpheus- LDBC Hive schema (we want to have a schema in hive similar to neo4j and hdfs): 
+
+-	Created python scripts to pre-process (Normalize) the data generated from this project to adhere with the LDBC property graph of Hive:
 
 - normalize place to City, Country, continent
 - normalize organization to company and university
@@ -32,19 +39,11 @@ we have this on machine 'Centos Machine 4'.
 - normalize person_workat_organisation to  person_workat_company
 -normalize place_ispartof_place to  city_ispartof_country and country_ispartof_continent
 
-5- Prepare the import script (neo4j admin import tool) for all nodes and relationships to load them into a neo4j graph DB.
-
-6- Load the data to neo4j and check the newly created schema.
-
-7- Solved the issue of Converting the GMT DateTime for Morpheus Cypher into Months and Years. (a lot of queries depend on this conversion).
-
-8- Morpheus- LDBC Hive schema (we want to have a schema in hive similar to neo4j and hdfs): 
-
 - Uploading the raw generated LDBC-CSV files with:
 - Converting the DateTime to GMT file format (PreProcessing/date_conversion_jar) to be in the same format as neo4j converted dates.
 - Using the Person preprocessed file prepared for neo4j import (correcting its header to original, removing the TYPE column) after copying it with converted date from the neo4j preparation.
 
-9-	Used the LDBC hive example of Morpheus to create LDBC graph, and used this to generate the LDBC graph out of it:
+8-	Used the LDBC hive example of Morpheus to create LDBC graph, and used this to generate the LDBC graph out of it:
 
 
 
